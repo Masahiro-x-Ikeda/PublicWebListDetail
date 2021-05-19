@@ -1,0 +1,62 @@
+﻿/* Added for CARNA */
+
+thead {
+    color: green;
+}
+
+a {
+    color: green;
+}
+
+    a:hover {
+        color: darkgreen;
+    }
+
+thead {
+    background-color: #c3e6cb;
+}
+
+/* Dropdown Menuの背景色を変える */
+.dropdown-item.active, .dropdown-item:active {
+    background-color: green;
+}
+
+.form-control:focus {
+    border-color: greenyellow;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px palegreen;
+}
+
+.page-link {
+    color: #09a103;
+    border: 1px solid green;
+}
+
+    .page-link:hover {
+        color: #42b300;
+        background-color: #ebefe9;
+        border-color: green;
+    }
+
+    .page-link:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px palegreen;
+    }
+
+.page-item.active .page-link {
+    background-color: #02bd34;
+    border-color: green;
+}
+
+.page-item.disabled .page-link {
+    color: #727d6c;
+    border-color: green;
+}
+
+/* Autocompleteで入力したときの背景色を透明にする */
+/* 色を付けるにはwhiteを変更する */
+
+input:-webkit-autofill {
+    animation-name: onAutoFillStart;
+    transition: background-color 50000s ease-in-out 0s;
+    box-shadow: 0 0 0 1000px white inset;
+}
+
